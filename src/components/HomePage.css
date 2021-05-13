@@ -1,0 +1,36 @@
+.navbar_log{
+    width: 20%;
+    right: 7%;
+    text-align: right;
+    color: black;
+}
+
+.HomeContainer{
+   margin-top: 50px;
+   content: url(./Images/imgbin_horoscope-hindu-astrology-sagittarius-astrological-sign-png.png);
+   display: block;
+   text-align: center;
+   margin: auto;
+   width: 500px;
+   position: relative;
+   z-index: -1;
+   opacity: 10%;
+   animation-name: spin;
+   overflow: hidden;
+   animation-duration: 190000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.navbar_log select{
+    right: 100%;
+    margin-top: 8px;}
+

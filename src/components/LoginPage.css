@@ -1,0 +1,96 @@
+body{
+    background: url(./Images/392777.jpg) no-repeat center center fixed;
+}
+
+.main{
+    margin-top: 40px;
+    color: black;
+}
+
+.forget_pswd{
+    font-weight: 540;
+    margin-top: 20px;
+    color: #094F65;
+}
+.forget_pswd:hover{
+    color: #073c4d;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 3px;
+    height: 381px;;
+    width: 420px;
+    box-shadow: 20px 20px -10px 50px black !important;
+}
+.frm{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.input{
+    width: 80%;
+    padding: 5px 1px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #094F65;
+    margin-top: 40px;
+    margin-bottom: 3px;
+}
+.has-error{
+    width: 80%;
+    padding: 5px 1px;
+    display: block;
+    border-radius: 3px;
+    margin: auto;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 3px;
+    border: 1px solid red;
+}
+.frm input:focus {
+    background: transparent
+    }
+.frmbtn{
+    border: none;
+    outline: none;
+    padding: 7px 30px;
+    border-radius: 3px;
+    font-weight: 450;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #094F65;
+}
+.frmbtn:hover{
+    background-color: #073c4d;
+    color:white
+}
+.Alert{
+    width: 300px;
+    display: block;
+    font-weight: bold;
+    margin: auto;
+}
+.Alert span{
+    font-size: 12px;
+    margin-top: 6px;
+}
+.err_msg{
+    color: red;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: smaller;
+}
